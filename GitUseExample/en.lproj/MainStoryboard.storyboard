@@ -28,11 +28,22 @@
                                     <action selector="clickTheButton:" destination="2" eventType="touchUpInside" id="jB3-2u-cdN"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This label will show up in the trunk after merging" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8j0-xw-k57">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="yhv-O0-VM9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="04Q-W8-vDx" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="h3l-uo-hED"/>
+                            <constraint firstItem="8j0-xw-k57" firstAttribute="top" secondItem="3" secondAttribute="top" constant="171" id="hCf-ah-hcp"/>
+                            <constraint firstAttribute="trailing" secondItem="8j0-xw-k57" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="hdI-Zw-0U9"/>
                             <constraint firstItem="04Q-W8-vDx" firstAttribute="top" secondItem="3" secondAttribute="top" constant="252" id="hge-iZ-uGp"/>
+                            <constraint firstItem="8j0-xw-k57" firstAttribute="centerX" secondItem="04Q-W8-vDx" secondAttribute="centerX" type="default" id="jIs-Nn-Wcf"/>
+                            <constraint firstItem="8j0-xw-k57" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="nM7-oi-CC2"/>
                         </constraints>
                     </view>
                 </viewController>
